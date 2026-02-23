@@ -17,7 +17,7 @@ services:
         sync: false # User must set this after frontend is deployed
 
   # Frontend service
-  - type: static_site
+  - type: static
     name: meditrack-client
     buildCommand: cd client && npm install && npm run build
     staticPublishPath: client/dist
