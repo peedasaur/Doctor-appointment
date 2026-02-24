@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "https://meditrack-server.onrender.com/api/$1"
+            "destination": "https://doctor-appointment-4yok.onrender.com/api/$1"
         },
         {
             "source": "/(.*)",
