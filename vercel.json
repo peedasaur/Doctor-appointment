@@ -6,8 +6,12 @@
             "destination": "https://doctor-appointment-4yok.onrender.com/api/$1"
         },
         {
+            "source": "/assets/(.*)",
+            "destination": "/client/dist/assets/$1"
+        },
+        {
             "source": "/(.*)",
-            "destination": "/client/dist/$1"
+            "destination": "/client/dist/index.html"
         }
     ]
 }
